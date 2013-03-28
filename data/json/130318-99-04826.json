@@ -1,0 +1,286 @@
+{
+    "timeline":
+    {
+        "headline":"Die Ära des Michael Schumacher in der Formel 1",
+        "type":"default",
+        "text":"<p>Sao Paulo (dpa) - Michael Schumachers Erfolgsbilanz in der Formel 1 ist einzigartig. Mit sieben WM-Titeln, 91 Grand-Prix-Siegen und 68 Pole-Positionen hat er Rekorde für die Ewigkeit aufgestellt. Aber auch Skandale, Unfälle und ein vorrübergehender Rücktritt gehören dazu. Beim Großen Preis von Brasilien beendet Schumacher seine Karriere. Die Nachrichtenagentur dpa gibt einen Überblick</p>",
+        "asset": {
+            "media":"img/121122-99-04569-2010-02-01.jpeg",
+            "credit":"dpa",
+            "caption":"Der deutsche Formel-1-Pilot Michael Schumacher posiert neben seinem Mercedes GP Rennwagen auf der Rennstrecke im spanischen Valencia (Archivfoto vom 01.02.2010)."
+        },
+        "date": [
+
+            {
+                "startDate":"1991,8,25",
+                "endDate":"1991,8,25",
+                "headline":"Spa-Francorchamps, erstes Formel-1-Rennen.",
+                "text":"<p>Gleich im zweiten Lauf fährt er in die Punkte.</p>",
+                "XXtag":"",
+                "asset": {
+		    "media":"",
+		    "thumbnail":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"1992",
+                "endDate":"1992",
+                "headline":"Erster Sieg, auch in Spa-Francorchamps",
+                "text":"<p>In seiner ersten kompletten Saison wird Schumacher gleich WM-Dritter.</p>",
+                "XXtag":"",
+                "asset": {
+		    "media":"img/121122-99-04543-1992-08-30.jpeg",
+		    "thumbnail":"img/121122-99-04543-1992-08-30.jpeg",
+                    "caption":"Der deutsche Formel-1-Rennfahrer Michael Schumacher (r) vom Team Benetton-Ford und der Brite Nigel Mansell, der Zweiter wurde, mit dem Siegerpokal in Spa in Belgien (Archivfoto vom 30.08.1992)."
+                }
+            },
+            {
+                "startDate":"1993",
+                "endDate":"1993",
+                "headline":"Ein Saisonsieg, WM-Vierter",
+                "text":"<p></p>",
+                "XXtag":"",
+                "asset": {
+		    "media":"img/121122-99-04550-1993-07-19.jpeg",
+		    "thumbnail":"img/121122-99-04550-1993-07-19.jpeg",
+                    "caption":"Die Brüder Ralf (l) und Michael Schumacher (r) in Kerpen mit ihrem Vater Rolf (Archivfoto vom 19.07.1993)"
+                }
+            },
+            {
+                "startDate":"1994",
+                "endDate":"1994",
+                "headline":"Schumacher gewinnt im Benetton zum ersten Mal den Titel",
+                "text":"<p>Überschattet wird die Saison vom Tod Ayrton Sennas (1. Mai) - Schumacher siegt in dem Rennen in Imola. In der Stunde des WM-Triumphs erinnert er an Senna. Es wäre Sennas Jahr geworden, sagt der neue Weltmeister.</p>",
+                "XXtag":"",
+                "asset": {
+		    "media":"img/121122-99-04577-1994-11-13.jpeg",
+		    "thumbnail":"img/121122-99-04577-1994-11-13.jpeg",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"1995",
+                "endDate":"1995",
+                "headline":"Schumacher verteidigt seinen Titel",
+                "text":"<p>Das Duell zwischen dem kompromisslosen Kerpener und dem erneut geschlagenen Damon Hill fesselt die Formel-1-Fans.</p>",
+                "XXtag":"",
+                "asset": {
+		    "media":"",
+		    "thumbnail":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"1996",
+                "endDate":"1996",
+                "headline":"Erstes Jahr bei Ferrari",
+                "text":"Aufbauarbeit ist gefragt. Drei Saisonsiege, keine Chance auf den Titel.",
+                "XXtag":"",
+                "asset": {
+		    "media":"",
+		    "thumbnail":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"1997",
+                "endDate":"1997",
+                "headline":"Der Skandal von Jerez",
+                "text":"<p>Schumacher rammt im letzten Rennen das Auto seines Titelrivalen Jacques Villeneuve. Der Kanadier kann weiterfahren, Schumacher nicht. Der Kerpener wird wegen Unsportlichkeit zudem aus der WM-Wertung gestrichen. Titel futsch, Ruf erstmal ramponiert.</p>",
+                "XXtag":"",
+                "asset": {
+		    "media":"",
+		    "thumbnail":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"1998",
+                "endDate":"1998",
+                "headline":"Mal wieder Spa",
+                "text":"<p>Im Regen fährt Schumacher ins Heck vom Wagen des zur Überrundung anstehende Schotten David Coulthard - Teamkollege des WM-Führenden und späteren Weltmeisters Mika Häkkinen. Schumacher scheidet aus, ist stinksauer und stapft in der Boxengasse wutentbrannt zu Coulthard. Es kommt fast zu Handgreiflichkeiten. Der Brite entschuldigt sich Jahre später.</p>",
+                "XXtag":"",
+                "asset": {
+		    "media":"",
+		    "thumbnail":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"1999",
+                "endDate":"1999",
+                "headline":"Schumachers schwerster Formel-1-Unfall",
+                "text":"<p>In Silverstone rast er wegen eines Bremsdefekts in einen Reifenstapel: Schien- und Wadenbeinbruch. Lange Pause.</p>",
+                "XXtag":"",
+                "asset": {
+		    "media":"",
+		    "thumbnail":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2000",
+                "endDate":"2000",
+                "headline":"Die sagenhafte Titelserie mit Ferrari beginnt",
+                "text":"<p>Es ist der erste Triumph für die Italiener seit 1979.</p>",
+                "XXtag":"",
+                "asset": {
+		    "media":"img/121122-99-04544-2000-10-22.jpeg",
+		    "thumbnail":"img/121122-99-04544-2000-10-22.jpeg",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2001",
+                "endDate":"2001",
+                "headline":"Die Titelverteidigung ist vier Rennen vor dem Saisonende perfekt",
+                "text":"<p>Zugleich stellt er den Rekord von Alain Prost ein, der 51 Grand Prix gewann.</p>",
+                "XXtag":"",
+                "asset": {
+		    "media":"",
+		    "thumbnail":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2002",
+                "endDate":"2002",
+                "headline":"Titel Nummer drei im Ferrari und sein fünfter insgesamt",
+                "text":"<p>Schumacher zieht mit Juan Manuel Fangio gleich. Der Stallorder-Skandal von Spielberg - Ferrari bremst Rubens Barrichello zugunsten von Schumacher vor der Ziellinie ein («Let Michael pass for the Championship») - wirft aber einen Schatten auf den Triumph.</p>",
+                "XXtag":"",
+                "asset": {
+		    "media":"",
+		    "thumbnail":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2003",
+                "endDate":"2003",
+                "headline":"Mit nur zwei Punkten Vorsprung auf Laren-Mercedes-Konkurrent Kimi Räikkönen gewinnt Schumacher seine sechste WM.",
+                "text":"<p></p>",
+                "XXtag":"",
+                "asset": {
+		    "media":"",
+		    "thumbnail":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2004",
+                "endDate":"2004",
+                "headline":"Titel Nummer sieben",
+                "text":"<p>Triumph - wo sonst?! - in Spa perfekt gemacht.</p>",
+                "XXtag":"",
+                "asset": {
+		    "media":"img/121122-99-04539-2004-08-29.jpeg",
+		    "thumbnail":"img/121122-99-04539-2004-08-29.jpeg",
+                    "caption":"Der deutsche Formel-1-Pilot Michael Schumacher (M) jubelt nach dem Großen Preis von Belgien in Spa-Francorchamps mit seinem Ferrari-Team (Archivfoto vom 29.08.2004)."
+                }
+            },
+            {
+                "startDate":"2005",
+                "endDate":"2005",
+                "headline":"Schumacher muss sich Fernando Alonso im Renault geschlagen geben",
+                "text":"<p>Dazu Bruderzwist in Monaco: Schumacher versucht, Ralf noch auf der Ziellinie zu überholen, um Sechster zu werden. Schumi II tobt: «Manchmal schaltet er sein Gehirn nicht ein.»</p>",
+                "XXtag":"",
+                "asset": {
+		    "media":"",
+		    "thumbnail":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2006",
+                "endDate":"2006",
+                "headline":"Kein Titel, aber mit der 66. Pole Position überbietet er Sennas Rekord",
+                "text":"<p>Und wieder ein Skandal: In Monaco stellt Schumacher seinen Ferrari auf der Strecke in den Weg. Ein paar Monate später die Rücktrittsankündigung zum Saisonende.</p>",
+                "XXtag":"",
+                "asset": {
+		    "media":"img/121122-99-04525-2006-11-22.jpeg",
+		    "thumbnail":"img/121122-99-04525-2006-11-22.jpeg",
+                    "caption":"German Formula One driver Michael Schumacher (3rd R) of Scuderia Ferrari F1 team pose with his teammate Brazilian Felipe Massa (L); team principal French Jean Todt (2nd L) and technical director British Ross Brawn (R) for team photo after the F1 Grand Prix of Brazil at the racetrack in Interlagos near Sao Paulo, Brazil, Sunday 22 October 2006."
+                }
+            },
+            {
+                "startDate":"2007",
+                "endDate":"2007",
+                "headline":"Schumacher arbeitet als Ferrari-Berater",
+                "text":"<p></p>",
+                "XXtag":"",
+                "asset": {
+		    "media":"",
+		    "thumbnail":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2008",
+                "endDate":"2008",
+                "headline":"Ein weiteres Jahr als Tipgeber für die Scuderia",
+                "text":"<p></p>",
+                "XXtag":"",
+                "asset": {
+		    "media":"",
+		    "thumbnail":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2009",
+                "endDate":"2009",
+                "headline":"Schumacher will für den verunglückten Felipe Massa bei Ferrari einspringen.",
+                "text":"<p> Die Folgen eines Motorradunfalls im Februar durchkreuzen die Pläne. Dann der Vorweihnachts-Kracher: Schumacher fährt ab 2010 für das Werksteam Mercedes Grand Prix.</p>",
+                "XXtag":"",
+                "asset": {
+		    "media":"img/121122-99-04584-2008-06-12.jpeg",
+		    "thumbnail":"img/121122-99-04584-2008-06-12.jpeg",
+                    "caption":"Der siebenmalige deutsche Formel 1-Weltmeister, Michael Schumacher, stürzt beim freien Motorrad-Training mit seiner IDM-Superbike auf dem Sachsenring bei Zwickau (Archivfoto vom 12.06.2008)."
+                }
+            },
+            {
+                "startDate":"2010",
+                "endDate":"2010",
+                "headline":"Die Rückkehr ins Renngeschehen",
+                "text":"<p>Nicht aber zu alten Erfolgen. WM-Neunter. Meist geschlagen vom eigenen Teamkollegen Nico Rosberg.</p>",
+                "XXtag":"",
+                "asset": {
+		    "media":"img/121122-99-04552-2010-11-14.jpeg",
+		    "thumbnail":"img/121122-99-04552-2010-11-14.jpeg",
+                    "caption":"Der deutsche Formel-1-Rennfahrer Michael Schumacher (r) von Mercedes GP umarmt vor dem Start zum Großen Preis von Au Dhabi auf dem Yas Marina Circuit in den Vereinigten Arabischen Emiraten den Mercedes Motorsportchef Norbert Haug im Fahrerlager (Archivfoto vom 14.11.2010)"
+                }
+            },
+            {
+                "startDate":"2011",
+                "endDate":"2011",
+                "headline":"Das zweite Comeback-Jahr verläuft bis zur Sommerpause erneut frustrierend. ",
+                "text":"<p>«Schumi» hofft auf «Achtungszeichen». Vergeblich.</p>",
+                "XXtag":"",
+                "asset": {
+		    "media":"",
+		    "thumbnail":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2012",
+                "endDate":"2012",
+                "headline":"Der dritte Anlauf im Silberpfeil, viel besser wird es nicht",
+                "text":"<p>Bestzeit in der Qualifikation von Monaco, Platz drei in Valencia - mehr war nicht drin. Mercedes mustert «Schumi» zum Saisonende aus und verpflichtet Lewis Hamilton als Nachfolger. Am 4. Oktober erklärt Schumacher sein Karriereende nach der laufenden Saison. Nach dem Saisonfinale in Sao Paulo geht Schumacher erneut in die PS-Rente - dieses Mal wohl endgültig.</p>",
+                "XXtag":"",
+                "asset": {
+		    "media":"",
+		    "thumbnail":"",
+                    "caption":""
+                }
+            }
+
+
+
+
+
+
+        ]
+    }
+}
