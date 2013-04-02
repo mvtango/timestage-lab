@@ -132,7 +132,7 @@ my.MultiView = Backbone.View.extend({
     var self = this;
     this.el = $(this.el);
     this._setupState(options.state);
-
+ 
     // Hash of 'page' views (i.e. those for whole page) keyed by page name
     if (options.views) {
       this.pageViews = options.views;
@@ -239,6 +239,7 @@ my.MultiView = Backbone.View.extend({
       .fail(function(error) {
         self.notify({message: error.message, category: 'error', persist: true});
       });
+    $("#pagetitle").html(options.state.title);
   },
 
   setReadOnly: function() {

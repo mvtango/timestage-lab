@@ -14,7 +14,7 @@ recline-deps: true
 }
 </style>
 
-<div class="page-header"><h3 id="pagetitle"></h3></div>
+
 <div class="data-explorer-here"></div>
 
 <div style="clear: both;"></div>
@@ -27,17 +27,21 @@ recline-deps: true
     <div class="alert-messages"></div> 
 
     <div class="header clearfix"> 
-       <div class="navigation"> 
-        <div class="btn-group" data-toggle="buttons-radio"> 
+       <div class="navigation" style="width: 80%"> 
+       	<a class="btn btn-mini" style="display: inline-block; vertical-align: text-top" href="search.html"><i class="icon-chevron-left"></i></a> 
+		<h3 id="pagetitle" style="display: inline-block; line-height: 0"></h3>
+		<div class="btn-group" data-toggle="buttons-radio" style="display: inline-block; vertical-align: text-top; margin-left: 10px;"> 
         {{#views}} 
-        <a href="#{{id}}" data-view="{{id}}" class="btn">{{label}}</a> 
+        <a href="#{{id}}" data-view="{{id}}" class="btn btn-mini">{{label}}</a> 
         {{/views}} 
-        </div> 
-       </div> 
+        </div>      
+
+       </div>
+             <!--
        <div class="recline-results-info"> 
         <span class="doc-count">{{recordCount}}</span> Einträge
        </div> 
-      <!-- <div class="menu-right"> 
+		<div class="menu-right"> 
         <div class="btn-group" data-toggle="buttons-checkbox"> 
           {{#sidebarViews}} 
           <a href="#" data-action="{{id}}" class="btn">{{label}}</a> 
@@ -46,13 +50,28 @@ recline-deps: true
       </div> 
       <div class="query-editor-here" style="display:inline;"></div> 
      -->
-     <div class="menu-right">
-        <div class="btn-group" data-toggle="buttons-radio">
-			<a href="#" class="btn">Einbetten</a> 
-			<a href="#" class="btn">Rohdaten</a> 
-		</div>
-     </div>
+     <div class="menu-right" style="border: 0px" > 
+      <button type="button" class="btn btn-success" data-toggle="collapse" data-target="#embedcode">
+       Verwenden
+	  </button>
     </div>
+    </div>
+    <div id="embedcode" class="collapse" style="padding-bottom: 5px; border-bottom: 1px solid #eeeeee;">
+			<div class="row" style="padding-top: 10px" >
+			 <div class="span4 offset4">
+               <div class="well"> 
+                <h4>Einbetten</h4>
+			    <textarea style="width:100%; height: 40px"></textarea>
+			   </div>
+			 </div>
+			 <div class="span4">
+               <div class="well"> 
+                <h4>Rohdaten</h4>
+			    <textarea style="width:100%; height: 40px"></textarea>
+			   </div>
+			 </div>
+		    </div>
+	</div>
     <div class="data-view-sidebar"></div> 
     <div class="data-view-container"></div> 
   </div> 
