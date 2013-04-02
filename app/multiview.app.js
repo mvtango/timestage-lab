@@ -71,32 +71,25 @@ var createExplorer = function(dataset, state) {
   var views = [
     {
       id: 'grid',
-      label: 'Grid',
+      label: 'Tabelle',
       view: new recline.View.SlickGrid({
         model: dataset
       })
     },
     {
-      id: 'graph',
-      label: 'Graph',
-      view: new recline.View.Graph({
+      id: 'verite',
+      label: 'Horizontal',
+      view: new recline.View.Timeline({
         model: dataset
       })
     },
     {
-      id: 'map',
-      label: 'Map',
-      view: new recline.View.Map({
+      id: 'balance',
+      label: 'Vertical',
+      view: new recline.View.Timeline({
         model: dataset
       })
     },
-    {
-      id: 'transform',
-      label: 'Transform',
-      view: new recline.View.Transform({
-        model: dataset
-      })
-    }
   ];
 
   window.dataExplorer = new recline.View.MultiView({

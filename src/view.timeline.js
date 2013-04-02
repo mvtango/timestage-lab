@@ -99,8 +99,14 @@ my.Timeline = Backbone.View.extend({
       var tlEntry = {
         "startDate": start,
         "endDate": end,
-        "headline": String(record.get('title') || ''),
-        "text": record.get('description') || record.summary()
+        "headline": String(record.get('headline') || ''),
+        "text": record.get('text') || '',
+        "asset" : {
+			"media": record.get('media') || '',
+			"caption": record.get('mediacaption') || '',
+			"credit": record.get('mediacredit') || ''
+		},
+        "titleslide": record.get('titleslide')
       };
       return tlEntry;
     } else {
