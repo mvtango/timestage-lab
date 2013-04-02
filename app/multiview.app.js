@@ -1,4 +1,5 @@
 jQuery(function($) {
+  $.Mustache.addFromDom();
   window.dataExplorer = null;
   window.explorerDiv = $('.data-explorer-here');
 
@@ -26,6 +27,7 @@ jQuery(function($) {
       state.dataset
     );
     dataset = new recline.Model.Dataset(datasetInfo);
+    $("#pagetitle").html(state.title);
   } else {
     dataset = new recline.Model.Dataset({
       records: [
@@ -70,13 +72,6 @@ var createExplorer = function(dataset, state) {
 
   var views = [
     {
-      id: 'grid',
-      label: 'Tabelle',
-      view: new recline.View.SlickGrid({
-        model: dataset
-      })
-    },
-    {
       id: 'verite',
       label: 'Horizontal',
       view: new recline.View.Timeline({
@@ -90,13 +85,21 @@ var createExplorer = function(dataset, state) {
         model: dataset
       })
     },
+    {
+      id: 'grid',
+      label: 'Tabelle',
+      view: new recline.View.SlickGrid({
+        model: dataset
+      })
+    }
   ];
 
   window.dataExplorer = new recline.View.MultiView({
     model: dataset,
     el: $el,
     state: state,
-    views: views
+    views: views,
+    template: "explorer-template"
   });
 }
 

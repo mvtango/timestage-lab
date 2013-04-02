@@ -136,8 +136,11 @@ var SearchView = Backbone.View.extend({
 
 	$(".resultrow").click(function(e) {
 		var $el=$(this);
-		var rl=$el.attr("data-url");
-		document.location.href="multiview.html?backend=gdocs&url="+rl;
+		var ra={}
+		_.each(["url","title","date"],function(e) {
+			ra[e]=encodeURIComponent($el.attr("data-"+e));
+			});
+		document.location.href="multiview.html?backend=gdocs&url="+ra.url+"&title="+ra.title;
 	});
 
     // Set the total records found info

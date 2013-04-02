@@ -14,9 +14,48 @@ recline-deps: true
 }
 </style>
 
+<div class="page-header"><h3 id="pagetitle"></h3></div>
 <div class="data-explorer-here"></div>
 
 <div style="clear: both;"></div>
 
 <script type="text/javascript" src="app/multiview.app.js"></script>
 
+{% raw %} 
+<script type="text/html" id="explorer-template">
+ <div class="recline-data-explorer"> 
+    <div class="alert-messages"></div> 
+
+    <div class="header clearfix"> 
+       <div class="navigation"> 
+        <div class="btn-group" data-toggle="buttons-radio"> 
+        {{#views}} 
+        <a href="#{{id}}" data-view="{{id}}" class="btn">{{label}}</a> 
+        {{/views}} 
+        </div> 
+       </div> 
+       <div class="recline-results-info"> 
+        <span class="doc-count">{{recordCount}}</span> Einträge
+       </div> 
+      <!-- <div class="menu-right"> 
+        <div class="btn-group" data-toggle="buttons-checkbox"> 
+          {{#sidebarViews}} 
+          <a href="#" data-action="{{id}}" class="btn">{{label}}</a> 
+          {{/sidebarViews}} 
+        </div> 
+      </div> 
+      <div class="query-editor-here" style="display:inline;"></div> 
+     -->
+     <div class="menu-right">
+        <div class="btn-group" data-toggle="buttons-radio">
+			<a href="#" class="btn">Einbetten</a> 
+			<a href="#" class="btn">Rohdaten</a> 
+		</div>
+     </div>
+    </div>
+    <div class="data-view-sidebar"></div> 
+    <div class="data-view-container"></div> 
+  </div> 
+</script>
+
+{% endraw %}
