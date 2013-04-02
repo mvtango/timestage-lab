@@ -100,7 +100,7 @@ my.Timeline = Backbone.View.extend({
         "startDate": start,
         "endDate": end,
         "headline": String(record.get('headline') || ''),
-        "text": record.get('text') || '',
+        "text": record.get('text') || '	',
         "asset" : {
 			"media": record.get('media') || '',
 			"caption": record.get('mediacaption') || '',
