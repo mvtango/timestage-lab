@@ -89,6 +89,7 @@ this.recline.View = this.recline.View || {};
 // }
 // </pre>
 //
+// template: DOM ID of mustache template 
 // Note that at present we do *not* serialize information about the actual set
 // of views in use -- e.g. those specified by the views argument -- but instead 
 // expect either that the default views are fine or that the client to have
@@ -191,7 +192,7 @@ my.MultiView = Backbone.View.extend({
       }];
     }
     // these must be called after pageViews are created
-    this.render();
+    this.render(options.template);
     this._bindStateChanges();
     this._bindFlashNotifications();
     // now do updates based on state (need to come after render)
@@ -244,11 +245,15 @@ my.MultiView = Backbone.View.extend({
     this.el.addClass('recline-read-only');
   },
 
-  render: function() {
+  render: function(tmpl) {
     var tmplData = this.model.toTemplateJSON();
     tmplData.views = this.pageViews;
     tmplData.sidebarViews = this.sidebarViews;
-    var template = Mustache.render(this.template, tmplData);
+    if (tmpl) {
+		template=$.Mustache.render(tmpl,tmplData);
+	} else {
+		template = Mustache.render(this.template, tmplData);
+	}
     $(this.el).html(template);
 
     // now create and append other views
