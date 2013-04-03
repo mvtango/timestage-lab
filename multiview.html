@@ -28,7 +28,7 @@ recline-deps: true
 
     <div class="header clearfix"> 
        <div class="navigation" style="width: 80%"> 
-       	<a class="btn btn-mini" style="display: inline-block; vertical-align: text-top" href="search.html"><i class="icon-chevron-left"></i></a> 
+       	<a class="btn btn-mini" style="display: inline-block; vertical-align: text-top" href="./search.html"><i class="icon-chevron-left"></i></a> 
 		<h3 id="pagetitle" style="display: inline-block; line-height: 0"></h3>
 		<div class="btn-group" data-toggle="buttons-radio" style="display: inline-block; vertical-align: text-top; margin-left: 10px;"> 
         {{#views}} 
@@ -61,13 +61,17 @@ recline-deps: true
 			 <div class="span4 offset4">
                <div class="well"> 
                 <h4>Einbetten</h4>
-			    <textarea style="width:100%; height: 40px"></textarea>
+			    <textarea style="width:100%; height: 40px">&lt;iframe width="560" height="315" src="http://embed.dpa-info.com/CEWUjgQd7yM" frameborder="0" allowfullscreen>&lt;/iframe>
+			    </textarea>
+			    <input type=text value="560" style="width: 50px; display:inline-block"> &times; <input type=text value="315" style="width: 50px; display:inline-block"> px
 			   </div>
 			 </div>
 			 <div class="span4">
                <div class="well"> 
                 <h4>Rohdaten</h4>
-			    <textarea style="width:100%; height: 40px"></textarea>
+                 <br />
+                 <a href="#" class="btn btn-info">JSON</a> <br /> <br />
+				 <a href="#" class="btn btn-info">Google Spreadsheet</a>
 			   </div>
 			 </div>
 		    </div>
