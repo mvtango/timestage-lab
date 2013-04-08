@@ -2,4 +2,6 @@ pygments: true
 auto: true
 
 title: Recline Data Explorer and Library
+exclude: python
+
 
