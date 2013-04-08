@@ -21,11 +21,15 @@ jQuery(function($) {
 
   // Check for config from url query string
   
- # var config = { backend: "gdocs",
- #            url: "https://docs.google.com/spreadsheet/ccc?key=0AnjSydpjIFuXdDhYZ2t3ZzBBaDA3QVlRUjVRVlhGM2c" }
+  // var config = { backend: "gdocs",
+  //           url: "https://docs.google.com/spreadsheet/ccc?key=0AnjSydpjIFuXdDhYZ2t3ZzBBaDA3QVlRUjVRVlhGM2c" }
            
   var config = { backend: "couchdb",
-             url: "http://localhost:5984/timestage" }
+             db_url: "/couchdb/timestage",
+             view_url: "/couchdb/timestage/_design/titles/_view/titles",
+             query_options: { key: "_id" }
+              }
+  window.config=config;
              
   if (config.backend) {
     // If we had it hand off to our more complex example setup

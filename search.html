@@ -15,9 +15,9 @@ recline-deps: true
 {% raw %}
 
 <script type="text/html" id="result-template">
-<div class="row resultrow" data-url="{{ data }}" data-title="{{ titel }}" data-date="{{ date }}"> 
-      <div class="span8"><h3> {{titel}}
-      <br /><small>{{ record.slug }} {{ datum }}</small> </h3> 
+<div class="row resultrow" data-url="{{ _id }}" data-title="{{ timeline.headline }}" data-date="{{ date }}"> 
+      <div class="span8"><h3> {{timeline.headline}}
+      <br /><small>{{{ timeline.text }}} {{ datum }}</small> </h3> 
        <p>{{ vorspann }} </p> 
       </div> 
       <div class="span2">
